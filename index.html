@@ -2,17 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Quotes App</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Quote Shower</h1>
-      <div id="quote-box">
-        <p id="quote">Click the button to get inspired!</p>
-        <button id="new-quote">New Quote</button>
+      <div id="datetime" class="datetime"></div>
+
+      <div class="corner c-top-left"></div>
+      <div class="corner c-top-right"></div>
+      <div class="corner c-bottom-left"></div>
+      <div class="corner c-bottom-right"></div>
+      <!-- <h1>Quote Shower</h1> -->
+      <div id="quote-box" class="content">
+        <!-- <div class="mobile-hypen">“</div> -->
+        <p id="quote" class="title glow">
+          The only limit to our realization of tomorrow is our doubts of today.
+        </p>
+        <!-- <div class="mobile-hypen"></div> -->
+        <div class="author">
+          <!-- <span></span> -->
+          <span id="author-name" class="author-name glow"></span>
+        </div>
+        <div class="aurora">
+          <div class="aurora__item"></div>
+          <div class="aurora__item"></div>
+          <div class="aurora__item"></div>
+          <div class="aurora__item"></div>
+        </div>
+        <!-- <button id="new-quote">New Quote</button> -->
       </div>
     </div>
-    <script src="/script.js"></script>
+
+    <script type="module" src="/script.js"></script>
   </body>
 </html>
