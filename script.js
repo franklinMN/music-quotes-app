@@ -16,11 +16,9 @@ const quoteText = document.getElementById("quote");
 const authorName = document.getElementById("author-name");
 
 quoteText.textContent = quotes[quoteIndex].text;
-authorName.textContent = `-- ` + quotes[quoteIndex].author || "Unknown";
-// quoteBtn.addEventListener("click", () => {
-//   const randomIndex = Math.floor(Math.random() * quotes.length);
-//   quoteText.textContent = quotes[randomIndex];
-// });
+authorName.textContent = quotes[quoteIndex].author
+  ? `-- ${quotes[quoteIndex].author}`
+  : "Unknown";
 
 // ----------------------------------- datetime start
 
