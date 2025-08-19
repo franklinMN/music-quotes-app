@@ -39,6 +39,10 @@ body {
   box-sizing: border-box;
 }
 
+.hide {
+  display: none;
+}
+
 .content {
   text-align: center;
   position: relative;

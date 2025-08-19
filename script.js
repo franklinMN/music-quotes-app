@@ -1,4 +1,8 @@
 import { quotes } from "./assets/quotes.js";
+import { router } from "./plain.route.js";
+
+window.addEventListener("hashchange", router);
+window.addEventListener("load", router);
 // Base date from which to start showing quotes (YYYY, MM (0-based), DD)
 const startDate = new Date(2024, 0, 1); // Jan 1, 2024
 
