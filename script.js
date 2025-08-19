@@ -7,6 +7,10 @@ const today = new Date();
 const diffInDays = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
 const quoteIndex = diffInDays % quotes.length;
 
+console.log("diffInDays - " + diffInDays);
+console.log("quotes.length - " + quotes.length);
+console.log("quoteIndex - " + quoteIndex);
+
 // Show the quote
 const quoteText = document.getElementById("quote");
 const authorName = document.getElementById("author-name");
