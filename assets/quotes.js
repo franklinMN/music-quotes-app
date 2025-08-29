@@ -50,8 +50,8 @@ export const quotes = [
     author: "Walt Whitman",
   },
   {
-    text: "Success usually comes to those who are too busy to be looking for it.",
-    author: "Henry David Thoreau",
+    text: "If an oil company buys your house it's because there is oil under it.",
+    author: "Unknown",
   },
   {
     text: "The best way to predict the future is to create it.",

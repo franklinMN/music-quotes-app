@@ -7,10 +7,11 @@ export function router() {
   if (hash === "#/plain") {
     frames.classList.add("hide");
     dateTime.classList.add("hide");
-    isPlain = true;
+    // isPlain = true;
+  } else if (hash === "#/tempquote") {
   } else {
     frames.classList.remove("hide");
     dateTime.classList.remove("hide");
-    isPlain = false;
+    // isPlain = false;
   }
 }
