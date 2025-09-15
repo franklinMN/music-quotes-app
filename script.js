@@ -1,6 +1,8 @@
 import { quotes } from "./assets/quotes.js";
 import { router } from "./plain.route.js";
 
+console.log(quotes.length);
+
 window.addEventListener("hashchange", router);
 window.addEventListener("load", router);
 // Base date from which to start showing quotes (YYYY, MM (0-based), DD)
