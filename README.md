@@ -1,10 +1,10 @@
-# 📜 Quotes App
+# 📜 Music Quotes App
 
-A simple and responsive Quotes Generator built with **HTML**, **CSS**, and **JavaScript**. This app fetches and displays a random inspirational quote with a clean UI and adjusts itself for both desktop and mobile devices.
+A simple and responsive music Quotes Generator built with **HTML**, **CSS**, and **JavaScript**. This app displays a random inspirational quote with a clean UI and adjusts itself for both desktop and mobile devices.
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the app](https://franklinmn.github.io/quotes-app/)
+👉 [Click here to view the app](https://franklinmn.github.io/music-quotes-app/)
 
 ## ✨ Features
 
@@ -30,7 +30,7 @@ A simple and responsive Quotes Generator built with **HTML**, **CSS**, and **Jav
 ## 📦 Installation
 
 1. Clone the repository:
-   git clone https://github.com/franklinmn/quotes-app.git
+   git clone https://github.com/franklinmn/music-quotes-app.git
 2. Open the index.html file in your browser, or use Live Server.
 3. To deploy, push your code to GitHub and enable GitHub Pages in the repo settings.
 
