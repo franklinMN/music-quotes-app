@@ -1,7 +1,7 @@
-import { quotes } from "./assets/quotes.js";
+import { quotes } from "./assets/new.js";
 import { router } from "./plain.route.js";
 
-console.log(quotes.length);
+// console.log(quotes.length);
 
 window.addEventListener("hashchange", router);
 window.addEventListener("load", router);
@@ -50,3 +50,15 @@ updateDateTime();
 setInterval(updateDateTime, 1000);
 
 // --------------------------------- datetime end
+
+// // helper function - shuffler
+// function shuffleArray(array) {
+//   for (let i = array.length - 1; i > 0; i--) {
+//     const j = Math.floor(Math.random() * (i + 1));
+//     [array[i], array[j]] = [array[j], array[i]]; // swap
+//   }
+//   return array;
+// }
+// const shuffledQuotes = shuffleArray(quotes);
+
+// console.log(shuffledQuotes);
